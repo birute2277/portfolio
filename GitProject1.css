@@ -1,3 +1,274 @@
 body {
     font-family: monospace;
 }
+.container1 {
+    background-image: url("https://c1.wallpaperflare.com/preview/870/861/160/kodaikanal-hill-station-hill-india.jpg");
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-size: 1800px;
+}
+.container11 {
+   width: 100%;
+    height: auto;
+}
+.container2 {
+    width: 80%;
+    border-radius: 10px;
+    text-align: left;
+
+    margin-top: -120px;
+
+    /*margin-top: -150px;*/
+}
+.pad30 {
+    padding: 0px 30px 20px 20px;
+
+}
+.bordR {
+    border-right: 3px solid #282727;
+}
+.aside {
+    width: 11%;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+main {
+    width: 83%;
+    height: auto;
+    background-color: #333131;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+
+.img1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+    border:5px solid #eeee;
+    margin: -100px 20px 20px 20px;
+    box-shadow: 5px 5px 15px 5px #444242;
+}
+.img1:hover {
+    background-size: 240px;
+}
+
+.img2 {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin: 20px 50px 20px 20px ;
+    border-radius: 10px;
+    border: 20px #1ff1e9 solid;
+    box-shadow: 5px 5px 15px 5px #444242;
+
+    /*mix-blend-mode:multiply;*/
+
+}
+.img2:hover {
+    border: 0;
+    width: 340px;
+    height: 440px;
+
+    margin-right: 50px;
+}
+.img3 {
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+    margin: 20px 20px 20px 50px ;
+    border-radius: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe9OJqCzU7ekPpogg41SXtOx4_e_4mJr7YPA&usqp=CAU");
+    background-size: 260px;
+
+    /*mix-blend-mode:multiply;*/
+
+}
+.img3:hover {
+    transition: 1.5s;
+    background-size: 300px;
+
+}
+
+ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+ul li:before {
+    content:'✓';
+}
+.button1 {
+    font-size: 50px;
+    background-color: #333131;
+    color: #dad7d7;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #858181;
+    margin: 10px;
+
+}
+.button1:hover {
+    box-shadow: 5px 5px 5px 5px #b7b1b1;
+    margin-top: -10px;
+}
+.button2 {
+    height: 70px;
+    width: 130px;
+    color: #f8ebdc;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+.button2:hover {
+    background-color: #fc0d33;
+}
+.button3 {
+    height: 50px;
+    width: 200px;
+    color: #f51f35;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 5px 5px 15px 5px #444242;
+}
+.button3:hover {
+    background-color: #2e2f31;
+    margin-top: -10px;
+}
+.input1 {
+    height: 30px;
+    width: 240px;
+    margin: 0 30px 0 30px;
+}
+h1 {
+    color: #f8ebdc;
+    size: A3;
+}
+h2 {
+    text-decoration-style: solid;
+    color: #9d9da2;
+}
+h3 {
+    color: #fc0d33;
+    size: A4;
+}
+
+/*.hover1:hover {*/
+/*    transition: 1.2s;*/
+/*    color: #fc0d33;*/
+/*    text-decoration: underline;*/
+/*}*/
+.mrg0 {
+    margin: 0;
+}
+.topMrg {
+    margin-top: 50px;
+}
+/*+++++++++++++++Color++++++++++++++++*/
+
+.clWhite {
+    color: #f8ebdc;
+}
+
+
+.clGrey {
+    color: #9d9da1;
+}
+.clGrey1 {
+    color: #595554;
+}
+.clGrey2 {
+    color: #3e424b;
+}
+.clGrey3 {
+    color: #333133;
+}
+
+.bgGrey1 {
+   background-color: #595554;
+}
+.bgGrey2 {
+    background-color: #2f2b2f;
+}
+.bgGrey3 {
+    background-color: #22222a;
+}
+
+/*<!--++++++++++Contact+++++++++++++-->*/
+.main2 {
+    width: 83%;
+    height: auto;
+    background-color: #333131;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 40px;
+
+}
+.contact {
+    height: auto;
+    width: 35%;
+    background-color: #262323;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px #444242;
+}
+
+
+
+.contactInput {
+    height: 500px;
+    width: 55%;
+    background-color: #262323;
+    border-radius: 10px;
+    margin:10px 10px 10px 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px #444242;
+}
+
+/*+++++++++Flex+++++++++++++++++++++*/
+.d-flex {
+    display: flex;
+}
+.f-column {
+    flex-direction: column;
+}
+.a-i-center {
+    align-items: center;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.f-row {
+    flex-direction: row;
+}
+.j-c-center  {
+    justify-content: center;
+}
+.j-c-around {
+    justify-content: space-around;
+}
+.dNone{
+    display:none;
+}
+.text-center {
+    text-align: center;
+}
+.j-i-str {
+    align-items: stretch;
+}
+/*++++++++Other+++++++++++++++*/
+
+.height1 {
+   height: 200px;
+
+}
+.height2 {
+    height: auto;
+
+}
